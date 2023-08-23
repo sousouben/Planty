@@ -12,10 +12,11 @@
     <div id="wrapper" class="hfeed">
         <header id="header" role="banner">
             <div id="branding">
+                <!--Ajout du logo avec redirection vers page home'/'-->
                 <div id="site-logo">
-                <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name')); ?>" rel="home">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Logo.png" alt="<?php echo esc_attr(get_bloginfo('name')); ?> Logo">
-            </a>
+                    <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name')); ?>" rel="home">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Logo.png" alt="<?php echo esc_attr(get_bloginfo('name')); ?> Logo">
+                    </a>
                 </div>                
                 <div id="site-description" <?php if (!is_single()) {
                                                 echo ' itemprop="description"';
