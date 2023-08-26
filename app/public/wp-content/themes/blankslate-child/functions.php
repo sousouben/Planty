@@ -3,7 +3,7 @@
 function add_admin_item_to_nav_menu($items, $args)
 {
      if ( is_user_logged_in() && $args->theme_location == 'main-menu' ){
-         $items .= '<li id="menu-item-25"><a href="http://planty.local/wp-admin/" itemprop="url" </a><span itemprop="name">Admin</span></li>';
+         $items .= '<li id="menu-item-25"><a href="http://planty.local/wp-admin/" itemprop="url"><span itemprop="name">Admin</span></a> </a></li>';
      }
     else{
 
