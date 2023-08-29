@@ -37,11 +37,11 @@ Updated: 2023-08-11 12:35:29
 #menu-header {
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
 #menu-item-24 {
   background-color: #dc9f96;
-  padding: 32px 9px;
   margin-right: -10px;
   order: 3;
 }
@@ -65,4 +65,21 @@ Updated: 2023-08-11 12:35:29
 
 #menu-item-25 {
   order: 2;
+}
+
+#menu-header li {
+  padding: 32px;
+}
+
+/*******media*********/
+
+@media (max-width: 957px) {
+  #menu-header {
+    flex-direction: column;
+  }
+
+  #header {
+    flex-direction: column;
+    height: auto;
+  }
 }
