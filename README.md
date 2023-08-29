@@ -1,4 +1,4 @@
-# planty
+# planty site wordpress projet 6 Openclassrooms 2023
 
 ![logo](logo.png)
 
