@@ -1,6 +1,6 @@
 # planty
 
-![logo](./app/public/wp-content/themes/blankslate/assets/images/logo.png)
+![logo](logo.png)
 
 ---
 
