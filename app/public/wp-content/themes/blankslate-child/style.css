@@ -40,21 +40,21 @@ Updated: 2023-08-11 12:35:29
   flex-direction: row;
 }
 
-#menu-item-24 {
+#menu-item-801 {
   background-color: #dc9f96;
   margin-right: -10px;
   order: 3;
 }
 
-#menu-item-24:hover {
+#menu-item-801:hover {
   background-color: #c02e44;
 }
 
-#menu-item-24 a {
+#menu-item-801 a {
   color: white;
 }
 
-#menu-item-24 a:hover {
+#menu-item-801 a:hover {
   color: white;
 }
 
