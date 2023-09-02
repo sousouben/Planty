@@ -19,3 +19,7 @@
 https://github.com/sousouben/planty.git
 
 ```
+
+### Base de donnée en sql
+
+![BDD](Mouatakide_Souad_2_bdd_082023.sql)
